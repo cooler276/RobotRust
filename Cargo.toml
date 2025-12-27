@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "src",
+    "hardware/controller",
+    "hardware/robot_body",
+    "hardware/robot_head"
+]
+
+# ワークスペース内の各クレートで新しいresolverを使用する
+resolver = "3"
